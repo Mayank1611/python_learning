@@ -101,4 +101,6 @@ btn_div = Button(main, padx=16, bd=8, fg="black",
                  font=("arial", 20, "bold"), text="/", command=lambda: buttonClick("/"))
 btn_div.grid(row=4, column=3)
 
+main.bind('<Return>', buttonEqualOnEnter)
+
 main.mainloop()
